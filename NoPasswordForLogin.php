@@ -3,7 +3,7 @@
    Plugin Name: No Password For Login
    Plugin URI: http://tagapagkodigo.com
    description: Allows user to signup using an email and doesn't require a password. Only selected pages/posts will be accessed by these users.
-   Version: 1.0
+   Version: 1.1
    Author: Loreto Gabawa Jr.
    Author URI: http://tagapagkodigo.com
    License: GPL2
