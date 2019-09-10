@@ -18,7 +18,7 @@ class NoPasswordForLogin
     $this->pluginPath = dirname(__FILE__);
     $this->pluginUrl = WP_PLUGIN_URL . '/NoPasswordForLogin';
 
-    add_shortcode('npfl_signup', [ $this, 'signup_form' ] );
+    add_shortcode('npfl_form', [ $this, 'signup_form' ] );
     add_action( 'wp_loaded', [ $this, 'form_submit' ] );
   }
   public function signup_form() {    
